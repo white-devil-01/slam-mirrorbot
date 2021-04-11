@@ -86,7 +86,7 @@ In Line 27 Replace `▓` with the character of your Choice. This Character is Se
 In Line 84 Replace `▓` with the character of your Choice. This Character will Indicate the Downloaded Part.
 
 🔗 [Line 87](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/bot/helper/ext_utils/bot_utils.py#L87)
-In Line 84 Replace `░` with the character of your Choice. This Character Will Indicate the Incomplete Download Part
+In Line 87 Replace `░` with the character of your Choice. This Character Will Indicate the Incomplete Download Part
 
 ## Customising Bot status Message
 :octocat: In Order To Customise Bot status Message, You Have to Edit `Line 96` to `Line 112` in `bot_utils.py` file.
