@@ -1,5 +1,15 @@
 ## A Guide On How To Customise Bot Further for Personal Use.
 
+1. [Customising Bot /start Message](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-start-Message)
+2. [Changing Bot Commands](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Changing-Bot-Commands)
+3. [Changing Max Allowed Downloads & Set Auto Cancel Time If No Seeders Available](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Changing-Max-Allowed-Downloads-and-Set-Auto-Cancel-Time-If-No-Seeders-Available)
+4. [Customising Bot Message When Bot Auto Cancels the Torrent Due to No Seeders are Available](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-Message-When-Bot-Auto-Cancels-the-Torrent-Due-to-No-Seeders-are-Available)
+5. [Customising Bot Stats Message](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-Stats-Message)
+6. [Customising Mirror Status](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Mirror-Status)
+7. [Customising Mirror Progress Bar](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Mirror-Progress-Bar)
+8. [Customising Bot status Message](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-status-Message)
+9. [Customising Bot After Download Complete Message](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-After-Download-Complete-Message)
+
 ## Customising Bot /start Message
 :octocat: In Order to Customise Bot Start Message You have to Edit few lines in `__main__.py` file. 
 
