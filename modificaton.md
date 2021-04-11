@@ -24,15 +24,6 @@ In Order to Customise the way you want the start Message of Bot,  modify  `line 
 
 🔗 [Line 47 can be Opened from here](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/bot/__main__.py#L47)
 
-![start Message](https://i.ibb.co/7QmMWjM/start-message-init.png)
-
-
-
-### Example :
-Below is the Just an Example of How I Customised start message of my Bot. This is Just to Give you an Idea, You can Customise as You like.
-
-![final start Message](https://i.ibb.co/pxVxbcX/start-message-final.png)
-
 
 # Changing Bot Commands
 :octocat: In Order to Customise Bot Commands, You have to Edit Commands in `bot_commands.py` File.
@@ -42,10 +33,6 @@ slam-mirrorbot/bot/helper/telegram_helper/bot_commands.py
 or
 https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/telegram_helper/bot_commands.py
 ```
-### Example :
-I Changed My Bot Commands Like Following. You Can easily understand by looking at & edit as you want them.
-
-![Bot_Commands](https://i.ibb.co/fHKCLN5/botcommands.png)
 
 # Changing Max Allowed Downloads and Set Auto Cancel Time If No Seeders Available
 :octocat: In Order to Change Max Allowable Torrents at a Time & Auto Cancel If No Seeders are Available, You Have to Edit `aria.sh` file
@@ -60,10 +47,6 @@ You Have to remove  `--bt-stop-timeout=1200` from `Line 77` in `aria.sh` file.
 
 🔗 [Line 17 Can be Opened from Here](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/aria.sh#L7)
 
-See the Below Image and Remove the High Lighted Text from `aria.sh`
-
-![no auto cancel](https://i.ibb.co/Pm4kj3F/aria-sh-auto-stop.png)
-
 # Customising Bot Message When Bot Auto Cancels the Torrent Due to No Seeders are Available
 :octocat: In Order to edit Bot Auto Cancel Message, You Have to Edit `aria2_download.py` file.
 
@@ -76,14 +59,6 @@ https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/mirror_utils
 ```
 The Line Which You Have to Edit is `Line 65` 
 🔗 [Line 66 can be opened from here](https://github.com/iamLiquidX/MirrorX/blob/097a69e3b7aa7e8aad0c91de8b07877933ef6f34/bot/helper/mirror_utils/download_utils/aria2_download.py#L65)
-
-### Example: 
-This is How I Modified Auto Cancel Message. You Can Modify as You Like.
-```
-𝐘𝐨𝐮𝐫 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 𝐇𝐚𝐬 𝐍𝐨 𝐒𝐞𝐞𝐝𝐬, ⚠️ 𝐃𝐞𝐚𝐝 𝐓𝐨𝐫𝐫𝐞𝐧𝐭 !
-```
-
-![Auto cancel](https://i.ibb.co/qrJmg1p/Auto-Cancel.png)
 
 # Customising Bot Stats Message
 :octocat: In Order to Customise stats Message, You have to Edit few lines in `__main__.py` file. 
@@ -98,8 +73,6 @@ The Lines Which You Have to Edit are from  `Line 31` to `Line 39` . You can Cust
 ### Note: Don't Change Anything Which is written in `{ }` , Unless you know what you are doing.
 🔗 [Line 32 to 40 can be opened from here](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/bot/__main__.py#L32)
 
-![stats message](https://i.ibb.co/f0fMtV9/stats.png)
-
 # Customising Mirror Status
 :octocat: In Order To Customise MirrorStatus, You Have to Edit `Line 17` to `Line 23` in `bot_utils.py` file.
 You Can Find `bot_utils.py` File Here ⬇️
@@ -109,8 +82,6 @@ or
 https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/ext_utils/bot_utils.py
 ```
 🔗 [Line 17 to 23 can be opened from here](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/bot/helper/ext_utils/bot_utils.py#L17)
-
-![MirrorStatus](https://i.ibb.co/pzYSym7/mirrorstatus.png)
 
 # Customising Mirror Progress Bar
 :octocat: In Order To Customise Mirror Progress Bar, You Have to Edit `Line 27` ,`Line 84` & `Line 87` in `bot_utils.py` file.
@@ -143,12 +114,6 @@ https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/ext_utils/bo
 ```
 ### Note: Don't Change Anything Which is written in `{ }` , Unless you know what you are doing.
 
-![Bot Status Message](https://i.ibb.co/QmV34dQ/bot-status-message.png)
-
-### Example : This Is How It Looks ⬇️
-![botstatus](https://i.ibb.co/tXfzWH1/bot-status-message-bot.png)
-
-
 # Customising Bot After Download Complete Message
 :octocat: In Order To Customise Bots Message after Downnload Complete, You Have to Edit `Line 148` to `Line 176` in `mirror.py` file.
 You Can Find `mirror.py` File Here ⬇️
@@ -158,15 +123,6 @@ or
 https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/modules/mirror.py
 ```
 🔗 [Line 148](https://github.com/breakdowns/slam-mirrorbot/blob/d598144f752a3412da22977b5db88e7169792ae3/bot/modules/mirror.py#L148)
-
-![mirror.py](https://i.ibb.co/JtscvmM/mirror-py-init.png)
-
-### This Is an Example, How I Edited Mine ⬇️
-![mirror.py edited](https://i.ibb.co/bXrkTRf/mirror-py-edited.png)
-
-### Output of Edited Mirror.py file from Bot Message
-![mirror.py output](https://i.ibb.co/NspTKW7/mirror-py-output.png)
-
 
 
 ### *This is Just a Small Guide using which small small Customisations can be made in Mirror Bot.*
