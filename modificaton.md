@@ -3,7 +3,7 @@
 ## Customising Bot /start Message
 :octocat: In Order to Customise Bot Start Message You have to Edit few lines in `__main__.py` file. 
 
-You Can Find `__main__.py` File Here ⬇️
+You Can Find `__main__.py` File Here:
 ```
 slam-mirrorbot/bot/__main__.py
 or
@@ -15,7 +15,7 @@ In Order to Customise the way you want the start Message of Bot,  modify  `line 
 
 ## Changing Bot Commands
 :octocat: In Order to Customise Bot Commands, You have to Edit Commands in `bot_commands.py` File.
-You Can Find `bot_commands.py` File Here ⬇️
+You Can Find `bot_commands.py` File Here:
 ```
 slam-mirrorbot/bot/helper/telegram_helper/bot_commands.py
 or
@@ -38,7 +38,7 @@ You Have to remove  `--bt-stop-timeout=1200` from `Line 77` in `aria.sh` file.
 ## Customising Bot Message When Bot Auto Cancels the Torrent Due to No Seeders are Available
 :octocat: In Order to edit Bot Auto Cancel Message, You Have to Edit `aria2_download.py` file.
 
-You Can Find the `aria2_download.py` file Here ⬇️
+You Can Find the `aria2_download.py` file Here:
 
 ```
 slam-mirrorbot/bot/helper/mirror_utils/download_utils/aria2_download.py
@@ -51,7 +51,7 @@ The Line Which You Have to Edit is `Line 65`
 ## Customising Bot Stats Message
 :octocat: In Order to Customise stats Message, You have to Edit few lines in `__main__.py` file. 
 
-You Can Find `__main__.py` File Here ⬇️
+You Can Find `__main__.py` File Here:
 ```
 slam-mirrorbot/bot/__main__.py
 or
@@ -63,7 +63,7 @@ The Lines Which You Have to Edit are from  `Line 31` to `Line 39` . You can Cust
 
 ## Customising Mirror Status
 :octocat: In Order To Customise MirrorStatus, You Have to Edit `Line 17` to `Line 23` in `bot_utils.py` file.
-You Can Find `bot_utils.py` File Here ⬇️
+You Can Find `bot_utils.py` File Here:
 ```
 slam-mirrorbot/bot/helper/ext_utils/bot_utils.py
 or
@@ -73,7 +73,7 @@ https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/ext_utils/bo
 
 ## Customising Mirror Progress Bar
 :octocat: In Order To Customise Mirror Progress Bar, You Have to Edit `Line 27` ,`Line 84` & `Line 87` in `bot_utils.py` file.
-You Can Find `bot_utils.py` File Here ⬇️
+You Can Find `bot_utils.py` File Here:
 ```
 slam-mirrorbot/bot/helper/ext_utils/bot_utils.py
 or
@@ -91,7 +91,7 @@ In Line 84 Replace `░` with the character of your Choice. This Character Will 
 ## Customising Bot status Message
 :octocat: In Order To Customise Bot status Message, You Have to Edit `Line 96` to `Line 112` in `bot_utils.py` file.
 
-You Can Find `bot_utils.py` File Here ⬇️
+You Can Find `bot_utils.py` File Here:
 ```
 slam-mirrorbot/bot/helper/ext_utils/bot_utils.py
 or
@@ -101,7 +101,7 @@ https://github.com/breakdowns/slam-mirrorbot/blob/master/bot/helper/ext_utils/bo
 
 ## Customising Bot After Download Complete Message
 :octocat: In Order To Customise Bots Message after Downnload Complete, You Have to Edit `Line 148` to `Line 176` in `mirror.py` file.
-You Can Find `mirror.py` File Here ⬇️
+You Can Find `mirror.py` File Here:
 ```
 slam-mirrorbot/bot/modules/mirror.py
 or
