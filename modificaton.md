@@ -1,4 +1,4 @@
-## A Guide On How To Customise Bot Further for Personal Use.
+# A Guide On How To Customise Bot Further for Personal Use.
 
 1. [Customising Bot /start Message](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Customising-Bot-start-Message)
 2. [Changing Bot Commands](https://github.com/breakdowns/slam-mirrorbot/blob/master/modificaton.md##Changing-Bot-Commands)
